@@ -88,7 +88,6 @@ img {
     background: #45567d;
 }
 
-/* Welcome section */
 
 .welcome-section {
     display: flex;
@@ -128,7 +127,6 @@ img {
     }
 }
 
-/* "Automagic" image grid using no media queries */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -267,7 +265,7 @@ footer i {
     vertical-align: middle;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 46.1875em) {
     footer {
         flex-direction: column;
         text-align: center;
